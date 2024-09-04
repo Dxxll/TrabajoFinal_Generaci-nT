@@ -1,0 +1,30 @@
+#footerDiv {
+    background-color: #a4c5fc;
+    height: 50px;
+}
+
+.outstandingArt {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.outstandingArt figure {
+    margin: 0;
+    text-align: center;
+    border: 2px solid #ccc; 
+    padding: 10px; 
+    border-radius: 8px; 
+}
+.outstandingArt img {
+    width: 100%;
+    height: 20rem;
+    display: block;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+.outstandingArt figcaption {
+    font-size: 14px;
+    color: #555; 
+}
