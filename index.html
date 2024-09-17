@@ -2,13 +2,14 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
     <link rel="stylesheet" href="./css/Bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
-   <link rel="icon" href="./Íconos/logopcion.ico" >
-   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="./Íconos/logopcion.ico" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
@@ -25,12 +26,15 @@
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                    <img class="form-control mr-sm-2" src="./Íconos/person-circle.svg" alt="account">
+                    <a class="nav-link" href="login.html">
+                      <img class="form-control mr-sm-2" src="./Íconos/person-circle.svg" alt="account">
+                    </a>
                     <img class="form-control mr-sm-2" src="./Íconos/bag-plus.svg" alt="account">
                 </form>
             </div>
+        </nav>
     </header>
-  <body>
+<body>
         <div class="jumbotron">
             <h1 class="display-3">Bienvenido a Gallery!</h1>
             <p class="lead">
@@ -89,7 +93,7 @@
                 </figcaption>
             </figure>
           </a>
-          <a class="sincolor" href="/art1.html">
+          <a class="sincolor" href="/art2.html">
             <figure>
                 <div>
                     <img src="./Imágenes/arte2.webp" alt="art2">
@@ -100,17 +104,17 @@
                 </figcaption>
             </figure>
           </a>
-            <a class="sincolor" href="/art1.html">
+            <a class="sincolor" href="/art3.html">
             <figure>
                 <div>
                     <img src="./Imágenes/arte3.webp" alt="art3">
                 </div>
                 <figcaption>
-                   "La Monna Lisa" Leonardo Da Vinci
+                   "La Mona Lisa" Leonardo Da Vinci
                 </figcaption>
             </figure>
           </a>
-            <a class="sincolor" href="/art1.html">
+            <a class="sincolor" href="/art4.html">
             <figure>
                 <div>
                     <img src="./Imágenes/arte4.webp" alt="art4">
@@ -120,7 +124,7 @@
                 </figcaption>
             </figure>
           </a>
-            <a class="sincolor" href="/art1.html">
+            <a class="sincolor" href="/art5.html">
             <figure>
                 <div>
                     <img src="./Imágenes/arte5.webp" alt="art5">
@@ -130,7 +134,7 @@
                 </figcaption>
             </figure>
           </a>
-            <a class="sincolor" href="/art1.html">
+            <a class="sincolor" href="/art6.html">
             <figure>
                 <div>
                     <img src="./Imágenes/arte6.webp" alt="art6">
@@ -140,7 +144,7 @@
                 </figcaption>
             </figure>
           </a>
-            <a class="sincolor" href="/art1.html">
+            <a class="sincolor" href="/art7.html">
             <figure>
                 <div>
                     <img src="./Imágenes/arte7.webp" alt="art7">
@@ -148,9 +152,9 @@
                 <figcaption>
                     "La joven de la perla" Johannes Vermeer 
                 </figcaption>
-              </figure>
+            </figure>
             </a>
-            <a class="sincolor" href="/art1.html">
+            <a class="sincolor" href="/art8.html">
             <figure>
                 <div>
                     <img src="./Imágenes/arte8.webp" alt="art8">
@@ -183,7 +187,7 @@
                   <h3>ASESORAMIENTO</h3>
                   <p>Consultanos sin cargo</p>
                 </div>
-              </div>
+            </div>
             <hr>
         </div>
         <div class="newsletter">
@@ -196,10 +200,10 @@
               <input type="text" placeholder="Nombre" required>
               <button type="submit">SUSCRIBIRME</button>
             </form>
-          </div>
+        </div>
           <hr>
             <footer>
-                <div>
+              <div id="footerDiv">
                     <div class="info-section">
                         <div class="info-column">
                           <h3>MEDIOS DE PAGO</h3>
@@ -236,11 +240,10 @@
                             <a href="#"><img src="./Íconos/instagram.svg" alt="Instagram"></a>
                           </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
-
             </footer>
             <script src="./javascript/bootstrap.js"></script>
-        </body>
+</body>
 
 </html>

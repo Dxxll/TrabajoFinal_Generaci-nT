@@ -3,6 +3,11 @@ body {
   font-optical-sizing: auto;
 }
 
+#footerDiv {
+  background-color: #a4c5fc;
+  height: 50px;
+}
+
 .item{
   flex: 1;
   padding:10px;
@@ -53,170 +58,194 @@ figure:hover{
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1565C0, #b92b27);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
-.features {
-    display: flex; 
-    justify-content: space-around; 
-    align-items: center; 
-    background-color: #fff; 
-    padding: 20px 0; 
-  }
-  
-  .feature {
-    text-align: center; 
-    flex: 1; 
-    padding: 0 20px; 
-  }
-  
-  .icon {
-    font-size: 40px;
-    margin-bottom: 10px; 
-    display: block; 
-  }
 
-  .feature img {
-    height: 2rem;
-    width: 2rem;
-    margin-bottom: 10px;
-  }
-  .newsletter {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    background-color: #fff; 
-    padding: 20px;
-    border: 1px solid #ddd;
-    
-  }
+.features {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  background-color: #fff; 
+  padding: 20px 0; 
+}
   
-  .newsletter-content {
-    max-width: 50%; 
-    margin-right: 100px;
-  }
+.feature {
+  text-align: center; 
+  flex: 1; 
+  padding: 0 20px; 
+}
   
-  .newsletter-content h3 {
-    font-size: 18px; 
-    font-weight: bold; 
-    margin: 0 0 10px; 
-  }
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px; 
+  display: block; 
+}
+
+.feature img {
+  height: 2rem;
+  width: 2rem;
+  margin-bottom: 10px;
+}
+.newsletter {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #fff; 
+  padding: 20px;
+  border: 1px solid #ddd;
   
-  .newsletter-content p {
-    margin: 0 0 20px; 
-    color: #666; 
-    font-size: 14px;
-  }
+}
   
-  .newsletter-form {
-    display: flex; 
-    align-items: center; 
-  }
+.newsletter-content {
+  max-width: 50%; 
+  margin-right: 100px;
+}
   
-  .newsletter-form input[type="email"],
-  .newsletter-form input[type="text"] {
-    padding: 10px; 
-    border: 1px solid #ddd; 
-    margin-right: 5px; 
-    font-size: 14px; 
-    flex: 1; 
-  }
+.newsletter-content h3 {
+  font-size: 18px; 
+  font-weight: bold; 
+  margin: 0 0 10px; 
+}
   
-  .newsletter-form button {
-    padding: 10px 20px; 
-    background-color: #000; 
-    color: #fff; 
-    border: none; 
-    cursor: pointer; 
-    font-size: 14px; 
-  }
+.newsletter-content p {
+  margin: 0 0 20px; 
+  color: #666; 
+  font-size: 14px;
+}
   
-  .newsletter-form button:hover {
-    background-color: #444; 
-  }
+.newsletter-form {
+  display: flex; 
+  align-items: center; 
+}
   
-  .confirmation-text {
-    font-size: 12px; 
-    color: #666; 
-    margin-top: 10px; 
-    text-align: left; 
-  }
-  .info-section {
-    display: flex;
-    justify-content: space-between; 
-    background: #b92b27;
-    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
-    background: linear-gradient(to right, #1565C0, #b92b27);
-    padding: 20px; 
-    border-top: 1px solid #ddd; 
-  }
+.newsletter-form input[type="email"],
+.newsletter-form input[type="text"] {
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  margin-right: 5px; 
+  font-size: 14px; 
+  flex: 1; 
+}
   
-  .info-column {
-    flex: 1; 
-    padding: 0 20px; 
-    color: white;
-  }
+.newsletter-form button {
+  padding: 10px 20px; 
+  background-color: #000; 
+  color: #fff; 
+  border: none; 
+  cursor: pointer; 
+  font-size: 14px; 
+}
   
-  .info-column h3 {
-    font-size: 16px; 
-    font-weight: bold; 
-    margin-bottom: 10px; 
-  }
+.newsletter-form button:hover {
+  background-color: #444; 
+}
+
+.confirmation-text {
+  font-size: 12px; 
+  color: #666; 
+  margin-top: 10px; 
+  text-align: left; 
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between; 
+  background: #b92b27;
+  background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+  background: linear-gradient(to right, #1565C0, #b92b27);
+  padding: 20px; 
+  border-top: 1px solid #ddd; 
+}
   
-  .payment-methods {
-    display: flex; 
-    flex-wrap: wrap; 
-    gap: 5px; 
-  }
+.info-column {
+  flex: 1; 
+  padding: 0 20px; 
+  color: white;
+}
   
-  .payment-methods img {
-    width: 40px; 
-    height: auto; 
-  }
+.info-column h3 {
+  font-size: 16px; 
+  font-weight: bold; 
+  margin-bottom: 10px; 
+}
   
-  .additional-methods {
-    list-style: none;
-    padding: 0; 
-    margin: 10px 0; 
-    color: white;
-    font-size: 14px; 
-  }
+.payment-methods {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 5px; 
+}
   
-  .payment-link {
-    font-size: 14px; 
-    color: white  ; 
-    text-decoration: underline; 
-    margin-top: 10px; 
-    cursor: pointer; 
-  }
+.payment-methods img {
+  width: 40px; 
+  height: auto; 
+}
   
-  .info-column ul {
-    list-style: none; 
-    padding: 0; 
-    margin: 10px 0; 
-    color: white; 
-    font-size: 14px; 
-  }
+.additional-methods {
+  list-style: none;
+  padding: 0; 
+  margin: 10px 0; 
+  color: white;
+  font-size: 14px; 
+}
   
-  .social-icons {
-    display: flex; 
-    gap: 10px; 
-    margin-top: 10px; 
-  }
-  
-  .social-icons img {
-    width: 24px;
-    height: auto; 
-    cursor: pointer; 
-  }
+.payment-link {
+  font-size: 14px; 
+  color: white  ; 
+  text-decoration: underline; 
+  margin-top: 10px; 
+  cursor: pointer; 
+}
+
+.info-column ul {
+  list-style: none; 
+  padding: 0; 
+  margin: 10px 0; 
+  color: white; 
+  font-size: 14px; 
+}
+
+.social-icons {
+  display: flex; 
+  gap: 10px; 
+  margin-top: 10px; 
+}
+
+.social-icons img {
+  width: 24px;
+  height: auto; 
+  cursor: pointer; 
+}
+
 .navbar-toggler:hover{
   background-color: #1565C0;
 }
+
 .sincolor:hover{
   text-decoration: none;
 }
   
+/* recuadro de form para inicio sesión */
+form {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 2; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}  
   
-  
-  
-  
+.footer{
+  unicode-bidi: isolate;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+}
   

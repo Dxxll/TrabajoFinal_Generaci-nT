@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Registrarse</title>
+    <link rel="stylesheet" href="/css/Bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navBarMod navbar-expand-lg navbar-dark bg-primary">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img class="iconoNavBar"  src="./Íconos/logopcion.png" alt="Galary">
+            </a>
+        </nav>
+    </header>
+    
+    <form id="registroForm" method="POST" class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Nombre:</label>
+          <input type="text" placeholder="Ejemplo: Tomás" class="form-control" id="validationCustom01" name="name" required>
+          <div class="valid-feedback">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Apellido:</label>
+          <input type="text" placeholder="Ejemplo: Menéndez" class="form-control" id="validationCustom02" name="surname" required>
+          <div class="valid-feedback">
+          </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustom03" class="form-label">Edad:</label>
+            <input type="number" placeholder="Edad" class="form-control" id="validationCustom03" name="edad" min="1" max="100" required>
+            <div class="valid-feedback">
+            </div>
+          </div>
+        <div class="col-md-4">
+            <label for="validationCustom04" class="form-label">Email:</label>
+            <input type="email" placeholder="Ejemplo: tomasmenendez@gmail.com" class="form-control" id="validationCustom04" name="email" required>
+            <div class="valid-feedback">
+            </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom05" class="form-label">Contraseña:</label>
+          <input type="password" class="form-control" id="validationCustom05" name="password" required>
+          <div class="valid-feedback">
+          </div>
+      </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              De acuerdo con los términos y condiciones.
+            </label>
+            <div class="invalid-feedback">
+              Debes estar de acuerdo antes de crear la cuenta.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Crear cuenta</button>
+        </div>
+    </form>
+
+    <footer>
+    <div class="footer">
+        <div class="info-section">
+            <div class="info-column">
+            <h3>MEDIOS DE PAGO</h3>
+            <div class="payment-methods">
+                <img src="./Íconos/visa.png" alt="Visa">
+                <img src="./Íconos/mastercard.png" alt="MasterCard">
+                <img src="./Íconos/americanExpress.png" alt="American Express">
+                <img src="./Íconos/paypal.jpeg" alt="PayPal">
+            </div>
+            <ul class="additional-methods">
+                <li>Transferencia bancaria</li>
+                <li>Efectivo</li>
+            </ul>
+            <p class="payment-link">Ver cuotas sin interés</p>
+            </div>
+            <div class="info-column">
+            <h3>MEDIOS DE ENVÍO</h3>
+            <ul>
+                <li>Correo Privado</li>
+                <li>Retiro por Bs.As</li>
+            </ul>
+            <ul class="shipping-options">
+                <li>🚚 Envíos a todo el país</li>
+                <li>✈️ Envíos internacionales</li>
+            </ul>
+            </div>
+            <div class="info-column">
+            <h3>CONTACTÁNOS</h3>
+            <p>📞 +5412345678910</p>
+            <p>✉️ ejemplo@gmail.com</p>
+            <p>📍 CABA</p>
+            <div class="social-icons">
+                <a href="!#"><img src="./Íconos/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="./Íconos/instagram.svg" alt="Instagram"></a>
+            </div>
+            </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/javascript/bootstrap.js"></script>
+</body>
+</html>
