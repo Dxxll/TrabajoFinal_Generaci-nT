@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
-    <link rel="stylesheet" href="Bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/Bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleart.css">
    <link rel="icon" href="./Íconos/logopcion.ico">
-
+</head>
 <body>
     <!-- solo es una poquito porque me estaba poniendo al día, tengo que terminar esta parte -->
     <header>
@@ -29,40 +30,45 @@
                 </form>
             </div>
     </header>
-    <div>
-        <div class="precio">
-            <figure>
-            <div>
-                <img src="/Imágenes/arte1.webp" alt="art1">
+    <!-- estoy tratando de que la img quede contenida dentro del div -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-md-4 col-sm-6"class="parts">
+              <figure>
+                <div>
+                 <img class="ajusteimagen" src="./Imágenes/arte1.webp" alt="art1">
+                </div>
+               <figcaption>
+                  "La noche estrellada"
+                  Van gogh
+                </figcaption>
+              </figure>
             </div>
-            <figcaption>
-                "La noche estrellada"
-                Van gogh
-            </figcaption>
-        </figure>
-    </div>
-        <div class="precio">
+           <div class="col-xl-4 col-md-4 col-sm-6">
             <h1>
                 Información del producto
             </h1>
-            <ol>
+            <ul>
                 <li>
                     tamaño:
                 </li>
                 <li>material</li>
-                <li>Año</li>
+                <li>Fecha</li>
                 <li>.</li>
                 <li>.</li>
                 <li>.</li>
-            </ol>
-        </div>
-        <div class="precio" >
-            <h2>Comprar</h2>
-            <h2>Agregar al carrito</h2>
-        </div>
+            </ul>
+           </div>
+           <div class="col-xl-4 col-md-4 col-sm-6" >
+            <button>Comprar</button>
+            <button>Agregar al carrito</button>
+         </div>
+       </div>
     </div>
-    </body>
+</body>
+
     <body>
+
         <footer>
             <div>
                 <div class="info-section">
@@ -105,7 +111,8 @@
             </div>
 
         </footer>
-        <script src="bootstrap.js"></script>
+        <script src="./javascript/bootstrap.js"></script>
+        <script src="./javascript/script.js"></script>
     </body>
 
 </html>
