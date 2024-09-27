@@ -9,6 +9,7 @@
 body {
   font-family: "FontGalery", sans-serif;
   font-optical-sizing: auto;
+  height: 100rem;
 }
 
 .item{
@@ -224,7 +225,9 @@ figure:hover{
 .sincolor:hover{
   text-decoration: none;
 }
-  
+.center {
+  text-align: center;
+}
   
   
   
