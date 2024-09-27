@@ -1,5 +1,13 @@
+@font-face {
+  font-family: 'FontGalery';
+  src: url(/Fuente/Belaga.otf) format('woff2'),
+       url(/Fuente/Belaga.otf) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "FontGalery", sans-serif;
   font-optical-sizing: auto;
 }
 
@@ -9,7 +17,8 @@ body {
 }
 
 .outstandingArt {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -32,6 +41,7 @@ figure:hover{
 
 .outstandingArt img {
     height: 20rem;
+    width: 10rem;
     margin-bottom: 8px;
     border-radius: 5px;
 }
@@ -48,7 +58,7 @@ figure:hover{
 
 .navBarMod {
     background: #b92b27;
-    /* fallback for old browsers */
+   
     background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1565C0, #b92b27);
