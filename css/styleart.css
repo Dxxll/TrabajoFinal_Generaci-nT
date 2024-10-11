@@ -33,6 +33,9 @@ button{
     border: none;
     margin: 20px;
     padding: 5px;
+    padding-left: 20%;
+    padding-right: 20%;
+
 }
 button:hover{
     background-color: #9a9cc0;
@@ -60,6 +63,5 @@ box-shadow: 4px -3px 61px -15px rgba(117,117,117,0.53);
 
 .botones{
     text-align: center;
-    border: 1px solid black;
     margin: 0px;
 }
