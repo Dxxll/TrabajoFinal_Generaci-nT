@@ -13,23 +13,37 @@
 <body>
     <!-- solo es una poquito porque me estaba poniendo al día, tengo que terminar esta parte -->
     <header>
-        <nav class="navbar navBarMod navbar-expand-lg navbar-dark bg-primary">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+      <nav class="navbar navBarMod navbar-expand-lg navbar-dark bg-primary">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+              data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#!"><img class="iconoNavBar" src="./Íconos/logopcion.png" alt="Galary"></a>
+            <a class="navbar-brand" href="#!"><img class="iconoNavBar" src="./Íconos/logopcion.png" alt="Gallery"></a>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#!"> <h3>Inicio</h3>
+                      <span class="sr-only">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Products.html"><h3>Productos</h3></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#!"><h3>¿Quiénes somos?</h3></a>
+                  </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                    <img class="form-control mr-sm-2" src="/Íconos/person-circle.svg" alt="account">
-                    <img class="form-control mr-sm-2" src="/Íconos/bag-plus.svg" alt="account">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Búsqueda">
+                    <a class="nav-link" href="login.html">
+                      <img class="form-control mr-sm-2" src="./Íconos/person-circle.svg" alt="account">
+                    </a>
+                    <img class="form-control mr-sm-2" src="./Íconos/bag-plus.svg" alt="account">
                 </form>
             </div>
-    </header>
+      </nav>
+  </header> 
     <!-- estoy tratando de que la img quede contenida dentro del div -->
     <div class="container">
         <div class="row">
@@ -59,20 +73,16 @@
             </ul>
            </div>
            <div class="botones" class="col-xl-3col-md-1 col-sm-3" >
+          
             <div class="row"> 
-              <h3 class="col-11" >Cantidad disponible:</h3>
-              <div class="col-1"></div>variable</div>
-           
-            <div class="D-flex justify-content-center  "> <button>Comprar</button>
-              <button>Agregar al carrito</button></div>
-           
+              <h3 class="col-4" >Precio:</h3>
+              <div class="col-8">variable</div>
+            <div class="col D-flex justify-content-center  "> <a href=""><button>Comprar</button></a>
+              <a href=""><button>Agregar al carrito</button></div></a>
+           </div>
          </div>
        </div>
     </div>
-</body>
-
-    <body>
-
         <footer>
             <div>
                 <div class="info-section">
