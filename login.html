@@ -8,8 +8,39 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-
     <header>
+        <nav class="navbar navBarMod navbar-expand-lg navbar-dark bg-primary">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="#!"><img class="iconoNavBar" src="./Íconos/logopcion.png" alt="Gallery"></a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#!"> <h3>Inicio</h3>
+                        <span class="sr-only">(current)</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./Products.html"><h3>Productos</h3></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#!"><h3>¿Quiénes somos?</h3></a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="text" placeholder="Búsqueda">
+                      <a class="nav-link" href="login.html">
+                        <img class="form-control mr-sm-2" src="./Íconos/person-circle.svg" alt="account">
+                      </a>
+                      <img class="form-control mr-sm-2" src="./Íconos/bag-plus.svg" alt="account">
+                  </form>
+              </div>
+        </nav>
+    </header> 
+    <!-- <header>
         <nav class="navbar navBarMod navbar-expand-lg navbar-dark bg-primary">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
@@ -20,9 +51,9 @@
                 <img class="iconoNavBar"  src="./Íconos/logopcion.png" alt="Galary">
             </a>
         </nav>
-    </header>
+    </header> -->
 
-    <form action="" method="POST" class="row g-3 needs-validation" novalidate>
+    <form action="" method="POST" class="formlogin row g-3 needs-validation" novalidate>
         <div class="col-md-4">
             <label for="validationCustom04" class="form-label">Email:</label>
             <input type="email" placeholder="Ejemplo: tomasmenendez@gmail.com" class="form-control" id="validationCustom04" name="email" required>
@@ -37,9 +68,8 @@
         </div>
         <div class="col-12">
         <br>
-        <button class="btn btn-primary" type="submit">Registrarte</button>
-        <button class="btn btn-primary" type="submit">Crear cuenta
-            <a class="nav-link" href="/registrarse.html"></a>
+        <button class="btn btn-primary" type="submit">Iniciar sesión</button>
+        <button class="btn btn-primary" type="submit" href="./registrarse.html">Crear cuenta<a class="nav-link" href="/registrarse.html"></a>
         </button>
         </div>
     </form>
