@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-nav h3 {
+    font-size: 1.5rem;
+  }
+  
+  /* Hacer que las imágenes se adapten al ancho del contenedor */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Jumbotron Section */
+  .jumbotron {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .jumbotron h1 {
+    font-size: 2.5rem;
+  }
+  
+  .jumbotron .btn {
+    margin-top: 20px;
+  }
+  
+  /* Carrousel Section */
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Outstanding Art Section */
+  .outstandingArt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .outstandingArt figure {
+    flex-basis: 300px;
+    text-align: center;
+  }
+  
+  .outstandingArt figcaption {
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+  
+  /* Shipment Section */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .features .feature {
+    flex: 1 1 200px;
+    text-align: center;
+  }
+  
+  /* Newsletter Section */
+  .newsletter {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .newsletter-content h3 {
+    font-size: 2rem;
+  }
+  
+  .footerSection .info-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footerSection .info-column {
+    flex: 1 1 200px;
+    margin: 10px;
+  }
+  
+  .footerSection .payment-methods img,
+  .footerSection .social-icons img {
+    max-width: 50px;
+    margin: 5px;
+  }
+  
+  /* Media Queries para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .navbar-nav h3 {
+      font-size: 1.2rem;
+    }
+  
+    .jumbotron h1 {
+      font-size: 2rem;
+    }
+  
+    .carousel {
+      display: none;
+    }
+    .newspapperSection {
+        display: none;
+    }
+  
+    .outstandingArt figure {
+      flex-basis: 100%;
+    }
+  
+    .features {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footerSection .info-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-nav h3 {
+      font-size: 1rem;
+    }
+  
+    .jumbotron h1 {
+      font-size: 1.5rem;
+    }
+  
+    .outstandingArt figure {
+      flex-basis: 100%;
+    }
+  }
