@@ -74,14 +74,11 @@ body {
 }footer {
     margin-top: auto;
   }
-
-header{
-   position: fixed;
-    top:0;
-    width: 100%;
-
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-body{
-    padding-top: 110px;
-    z-index: 5;
+.row.button{
+    text-align: center;
 }

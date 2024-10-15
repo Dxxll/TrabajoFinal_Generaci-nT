@@ -30,11 +30,12 @@
                     <a class="nav-link" href="login.html">
                       <img class="form-control mr-sm-2" src="./Íconos/person-circle.svg" alt="account">
                     </a>
-                    <img class="form-control mr-sm-2" src="/Íconos/bag-plus.svg" alt="account">
+                    <a href="./carrito.html">
+                    <img class="form-control mr-sm-2" src="/Íconos/bag-plus.svg" alt="account">(<span id="carritoContador">0</span>)</a>
                 </form>
             </div>
     </header>
-    <div class="container">
+    <div class="container producto">
         <div class="row">
             <div class="col-xl-4 col-md-4 col-sm-6"class="parts">
               <figure>
@@ -64,7 +65,8 @@
            </div>
            <div class="col-xl-4 col-md-4 col-sm-6" >
             <button>Comprar</button>
-            <button>Agregar al carrito</button>
+            <button onclick="añadirAlCarrito('Producto 2', 200000)">Añadir al carrito</button>
+        </div>
          </div>
        </div>
     </div>
@@ -116,6 +118,7 @@
         </footer>
         <script src="./javascript/bootstrap.js"></script>
         <script src="./javascript/script.js"></script>
+        <script src="./javascript/carrito.js"></script>
     </body>
 
 </html>

@@ -13,83 +13,82 @@
 <link rel="stylesheet" href="/css/responsive.css">
 </head>
 <body>
-  <section class="navBarSection"><header>
-    <nav class="navbar navBarMod navbar-expand-lg navbar-dark bg-primary">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-            data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#!"><img class="iconoNavBar" src="./Íconos/logopcion.png" alt="Gallery"></a>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-              <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html"> <h3>Inicio</h3>
-                    <span class="sr-only">(current)</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./Products.html"><h3>Productos</h3></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#!"><h3>¿Quiénes somos?</h3></a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" type="text" placeholder="Búsqueda">
-                  <a class="nav-link" href="login.html">
-                    <img class="form-control mr-sm-2" src="./Íconos/person-circle.svg" alt="account">
-                  </a>
-                  <a href="shoppingCart.html"><img class="form-control mr-sm-2" src="./Íconos/bag-plus.svg" alt="account"></a>
-              </form>
-          </div>
-    </nav>
-</header> </section>
-<section class="jumbotronSection">
-  <div class="jumbotron">
-    <h1 class="display-3">¡Bienvenido a Gallery!</h1>
-    <p class="lead">
-    </p>
-    <hr class="my-4">
-    <p>Podrás ver y comprar las obras que más te gusten.
-    </p>
-    <p class="lead">
-        <a class="btn btn-primary" href="./quienesomos.html" role="button">Más info.</a>
-    </p>
-</div>
-</section>
-<section class="carrouselSection">
-  <div id="carouselExampleCaptions" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./Imágenes/arte1.webp" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Cuadros</h5>
-          <p>Los cuadros más ilustrativos</p>
+    <header>
+        <nav class="navbar navBarMod navbar-expand-lg navbar-dark bg-primary">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="./index.html"><img class="iconoNavBar" src="./Íconos/logopcion.png" alt="Gallery"></a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="./index.html"> <h3>Inicio</h3>
+                        <span class="sr-only">(current)</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./Products.html"><h3>Productos</h3></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./quienesomos.html"><h3>¿Quiénes somos?</h3></a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="text" placeholder="Búsqueda">
+                      <a class="nav-link" href="login.html">
+                        <img class="form-control mr-sm-2" src="./Íconos/person-circle.svg" alt="account">
+                      </a>
+                      <a href="./carrito.html">
+                        <img class="form-control mr-sm-2" src="./Íconos/bag-plus.svg" alt="account">(<span id="carritoContador">0</span>)
+                      </a>
+                  </form>
+              </div>
+        </nav>
+    </header> 
+
+        <div class="jumbotron">
+            <h1 class="display-3">¡Bienvenido a Gallery!</h1>
+            <p class="lead">
+            </p>
+            <hr class="my-4">
+            <p>Podrás ver y comprar las obras que más te gusten.
+            </p>
+            <p class="lead">
+                <a class="btn btn-primary" href="./quienesomos.html" role="button">Más info.</a>
+            </p>
         </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./Imágenes/escultura1.jpeg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Esculturas</h5>
-          <p>Totalmente atractivas visualmente</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./Imágenes/fotografia.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Fotografías</h5>
-          <p>Representa un momento destacado o bello del arte</p>
-        </div>
-      </div>
-    </div>
-</div>
-</section>
+        <section class="carrouselSection">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Imágenes/arte1.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cuadros</h5>
+                  <p>Los cuadros más ilustrativos</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./Imágenes/escultura1.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Esculturas</h5>
+                  <p>Totalmente atractivas visualmente</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./Imágenes/fotografia.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Fotografías</h5>
+                  <p>Representa un momento destacado o bello del arte</p>
+                </div>
+              </div>
+            </div>
+        </div></section>
         <br>
         <section class="topArtsSection">
           <p>

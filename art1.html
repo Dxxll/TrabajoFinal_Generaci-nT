@@ -20,11 +20,11 @@
               aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#!"><img class="iconoNavBar" src="./Íconos/logopcion.png" alt="Gallery"></a>
+            <a class="navbar-brand" href="./index.html"><img class="iconoNavBar" src="./Íconos/logopcion.png" alt="Gallery"></a>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mr-auto mt-2 mt-md-0">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#!"> <h3>Inicio</h3>
+                    <a class="nav-link" href="./index.html"> <h3>Inicio</h3>
                       <span class="sr-only">(current)</span>
                     </a>
                   </li>
@@ -32,7 +32,7 @@
                     <a class="nav-link" href="./Products.html"><h3>Productos</h3></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#!"><h3>¿Quiénes somos?</h3></a>
+                    <a class="nav-link" href="./quienesomos.html"><h3>¿Quiénes somos?</h3></a>
                   </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
@@ -40,13 +40,15 @@
                     <a class="nav-link" href="login.html">
                       <img class="form-control mr-sm-2" src="./Íconos/person-circle.svg" alt="account">
                     </a>
-                    <img class="form-control mr-sm-2" src="./Íconos/bag-plus.svg" alt="account">
+                    <a class="bolsa" href="./carrito.html">
+                      <img class="form-control mr-sm-2" src="./Íconos/bag-plus.svg" alt="account">
+                      (<span id="carritoContador">0</span>)</a>
                 </form>
             </div>
       </nav>
   </header> 
     <!-- estoy tratando de que la img quede contenida dentro del div -->
-   <div class="container">
+   <div class="container"  class="producto">
      <div class="row">
         <div class="col-xl-5 col-sm-6"class="parts">
           <figure>
@@ -62,27 +64,27 @@
        <div class="col-xl-4  col-sm-3">
          <h1 class="letrah1">Información del producto</h1>
           <ul>
-           <li>Tamaño:</li>
-           <li>Materiales utilizados:</li>
-           <li>Fecha:</li>
+           <li>Tamaño:73,7 centímetros × 92,1 centímetros y 36,25 pulgadas</li>
+           <li>Materiales utilizados:	Óleo y Lienzo</li>
+           <li>Fecha: junio de 1889</li>
           </ul>
           <h1 class="letrah1">Acerca de este artículo</h1>
             <ul>
-             <li></li>
-             <li></li>
-             <li></li>
+             <li>Ampliamente considerada como la obra maestra ​del pintor. La noche estrellada es una de las pinturas más reconocidas en la historia de la cultura occidental</li>
+             
             </ul>
         </div>
-        <div class="botones" class="col-xl-3col-md-1 col-sm-3" > 
-         <div class="row"> 
+        <div class="botones" class="col-xl-3col-md-1 col-sm-3 " > 
+         <div class="row text-center"> 
               <h3 class="col-4" >Precio:</h3>
-              <div class="col-8">variable</div>
-            <div class="col D-flex justify-content-center  "> <a href=""><button>Comprar</button></a>
-              <a href=""><button>Agregar al carrito</button></div></a>
+              <div class="col-8">$10000000</div>
+            <div class="col D-flex justify-content-center"> <a href=""><button>Comprar</button></a>
+              <button onclick="añadirAlCarrito('Producto 1', 10000000)">Añadir al carrito</button>
          </div>
         </div>
       </div>
    </div>
+</div>
         <footer>
             <div>
                 <div class="info-section">

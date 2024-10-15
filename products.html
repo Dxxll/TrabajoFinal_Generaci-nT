@@ -19,7 +19,7 @@
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#!"><img class="iconoNavBar" src="./Íconos/logopcion.png" alt="Galary"></a>
+      <a class="navbar-brand" href="./index.html"><img class="iconoNavBar" src="./Íconos/logopcion.png" alt="Galary"></a>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-md-0">
             <li class="nav-item active">
@@ -31,7 +31,7 @@
               <a class="nav-link" href="Products.html"><h3>Productos</h3></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#!"><h3>¿Quiénes somos?</h3></a>
+              <a class="nav-link" href="./quienesomos.html"><h3>¿Quiénes somos?</h3></a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -39,12 +39,15 @@
               <a class="nav-link" href="login.html">
                 <img class="form-control mr-sm-2" src="./Íconos/person-circle.svg" alt="account">
               </a>
-              <img class="form-control mr-sm-2" src="./Íconos/bag-plus.svg" alt="account">
+              <a href="./carrito.html">
+                <img class="form-control mr-sm-2" src="./Íconos/bag-plus.svg" alt="account">(<span id="carritoContador">0</span>)
+              </a>
           </form>
       </div>
 </nav>
 </header>
 <body>
+    <main id="productosContainer">
     <hr>
     <h2 class="center">Cuadros</h2>
 </p>
@@ -313,6 +316,7 @@
 </a>
 </div>
 <hr>
+</main>
 </body>
 <footer>
     <div>
