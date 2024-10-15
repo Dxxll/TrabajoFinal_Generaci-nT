@@ -74,14 +74,3 @@ body {
 }footer {
     margin-top: auto;
   }
-
-header{
-   position: fixed;
-    top:0;
-    width: 100%;
-
-}
-body{
-    padding-top: 110px;
-    z-index: 5;
-}

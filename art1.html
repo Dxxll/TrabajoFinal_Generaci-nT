@@ -19,11 +19,11 @@
               aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#!"><img class="iconoNavBar" src="./Íconos/logopcion.png" alt="Gallery"></a>
+            <a class="navbar-brand" href="./index.html"><img class="iconoNavBar" src="./Íconos/logopcion.png" alt="Gallery"></a>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mr-auto mt-2 mt-md-0">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#!"> <h3>Inicio</h3>
+                    <a class="nav-link" href="./index.html"> <h3>Inicio</h3>
                       <span class="sr-only">(current)</span>
                     </a>
                   </li>
@@ -31,7 +31,7 @@
                     <a class="nav-link" href="./Products.html"><h3>Productos</h3></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#!"><h3>¿Quiénes somos?</h3></a>
+                    <a class="nav-link" href="./quienesomos.html"><h3>¿Quiénes somos?</h3></a>
                   </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
@@ -39,13 +39,15 @@
                     <a class="nav-link" href="login.html">
                       <img class="form-control mr-sm-2" src="./Íconos/person-circle.svg" alt="account">
                     </a>
-                    <img class="form-control mr-sm-2" src="./Íconos/bag-plus.svg" alt="account">
+                    <a class="bolsa" href="./carrito.html">
+                      <img class="form-control mr-sm-2" src="./Íconos/bag-plus.svg" alt="account">
+                      (<span id="carritoContador">0</span>)</a>
                 </form>
             </div>
       </nav>
   </header> 
     <!-- estoy tratando de que la img quede contenida dentro del div -->
-   <div class="container">
+   <div class="container"  class="producto">
      <div class="row">
         <div class="col-xl-5 col-sm-6"class="parts">
           <figure>
@@ -77,7 +79,7 @@
               <h3 class="col-4" >Precio:</h3>
               <div class="col-8">variable</div>
             <div class="col D-flex justify-content-center  "> <a href=""><button>Comprar</button></a>
-              <a href=""><button>Agregar al carrito</button></div></a>
+              <button onclick="añadirAlCarrito('Producto 1', 10000000)">Añadir al carrito</button>
          </div>
         </div>
       </div>

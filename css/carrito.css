@@ -1,0 +1,82 @@
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: #555;
+}
+.productos, .carrito {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.producto {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+button {
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #662727;
+}
+.carrito ul {
+    list-style-type: none;
+    padding: 0;
+}
+.carrito li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button.eliminar {
+    background-color: rgb(131, 49, 49);
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    border-radius: 20px;
+}
+button.eliminar:hover {
+    background-color: rgb(77, 17, 17);
+}
+button.comprar {
+    background-color: rgb(88, 172, 88);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    text-align: center;
+}
+button.comprar:hover {
+    background-color: rgb(21, 71, 21);
+}
+.bolsa{
+    color: #333;
+    background-color: #555;
+}
+.carranza{
+    display: block;
+    text-align: center;
+}
+.ul{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

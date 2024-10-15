@@ -1,1 +1,105 @@
-<!-- provisorio -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery-carrito</title>
+    <link rel="stylesheet" href="./css/Bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+   <link rel="icon" href="./Íconos/logopcion.ico" >
+   <link rel="stylesheet" href="css/carrito.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navBarMod navbar-expand-lg navbar-dark bg-primary">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="./index.html"><img class="iconoNavBar" src="./Íconos/logopcion.png" alt="Gallery"></a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="./index.html"> <h3>Inicio</h3>
+                        <span class="sr-only">(current)</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./Products.html"><h3>Productos</h3></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./quienesomos.html"><h3>¿Quiénes somos?</h3></a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="text" placeholder="Búsqueda">
+                      <a class="nav-link" href="login.html">
+                        <img class="form-control mr-sm-2" src="./Íconos/person-circle.svg" alt="account">
+                      </a>
+                      <a href="./carrito.html">
+                        <img class="form-control mr-sm-2" src="./Íconos/bag-plus.svg" alt="account">
+                      </a>
+                  </form>
+              </div>
+        </nav>
+    </header> 
+    <main>
+        <div class="carrito carranza">
+            <h2>Carrito De Compras</h2>
+            <ul id="listaCarrito"></ul>
+            <p>Total: $<span id="total">0</span></p>
+            <button class="comprar text-align-center" id="comprar" onclick="comprar()">Comprar</button>
+        </div>
+    </main>
+<footer>
+    <div>
+        <div class="info-section">
+            <div class="info-column">
+              <h3>MEDIOS DE PAGO</h3>
+              <div class="payment-methods">
+                <img src="./Íconos/visa.png" alt="Visa">
+                <img src="./Íconos/mastercard.png" alt="MasterCard">
+                <img src="./Íconos/americanExpress.png" alt="American Express">
+                <img src="./Íconos/paypal.jpeg" alt="PayPal">
+              </div>
+              <ul class="additional-methods">
+                <li>Transferencia bancaria</li>
+                <li>Efectivo</li>
+              </ul>
+              <p class="payment-link">Ver cuotas sin interés</p>
+            </div>
+            <div class="info-column">
+              <h3>MEDIOS DE ENVÍO</h3>
+              <ul>
+                <li>Correo Privado</li>
+                <li>Retiro por Bs.As</li>
+              </ul>
+              <ul class="shipping-options">
+                <li>🚚 Envíos a todo el país</li>
+                <li>✈️ Envíos internacionales</li>
+              </ul>
+            </div>
+            <div class="info-column">
+              <h3>CONTACTÁNOS</h3>
+              <p>📞 +5412345678910</p>
+              <p>✉️ ejemplo@gmail.com</p>
+              <p>📍 CABA</p>
+              <div class="social-icons">
+                <a href="!#"><img src="./Íconos/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="./Íconos/instagram.svg" alt="Instagram"></a>
+              </div>
+            </div>
+          </div>
+    </div>
+
+</footer>
+<script src="./javascript/bootstrap.js"></script>
+<script src="./javascript/script.js"></script>
+<script src="./javascript/carrito.js"></script>
+</body>
+
+</html>
